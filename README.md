@@ -76,3 +76,8 @@ This repo is used to learn more about next.js, Jest and tailwind css.
     * static generated parts of pages with external data loaded via JS on client-side
     * used e.g. for user dashboard pages, user-specific pages where SEO is not relevant
     * for fetching data on the client side use the SWR hook
+
+### Dynamic Routes
+
+* next allows pre-rendered pages with url paths that depend on external data
+* dynamic routes start with [] e.g. [id].js
